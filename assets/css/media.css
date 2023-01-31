@@ -1,0 +1,72 @@
+
+
+@media(max-width:1200px){
+    .portfolio .item:hover .overlay {
+        opacity: 0;
+        z-index: -999;
+        padding: 0;
+      }
+      .price .row {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      .price .popular{
+        right: -7rem;
+      }
+      
+      .blog .row {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      .about img{
+         display: flex;
+         align-items: center;
+      }
+      .title h2{
+        font-size: 4rem;
+      }
+    }
+    @media (min-width:768px) and (max-width:992px){
+      .price .last,.blog .last{
+        margin: 3rem auto 0;
+      }
+      .price .popular{
+        top: 2.25rem;
+      }
+    }
+
+    @media (max-width:767px) {
+      .title h2{
+        font-size: 3rem;
+      }
+      .py-6{
+        padding: 4rem 0;
+      }
+      .price .popular{
+        top: 2.25rem;
+        right: -13rem;
+      }
+      .figures .item.one,
+      .figures .item.two,
+      .figures .item.three
+      {
+        border-bottom: 1px solid #f4f4f4;
+      }
+      .figures .item{
+        padding: 1rem 0;
+      }
+    }
+
+    @media (max-width:576px) {
+      .title h3,
+      .get-in-touch .title-white h3{
+        top: 0.5rem;
+      }
+      .get-in-touch .title-white h2{
+        font-size: 3rem;
+      }
+      .price .popular{
+        right: -9rem;
+        top: 1.75rem;       
+      }
+    }
